@@ -189,3 +189,4 @@ function trigger (element, eventName) {
   event.initEvent(eventName, true, true);
   event.eventName = eventName;
   element.dispatchEvent(event);
+}
